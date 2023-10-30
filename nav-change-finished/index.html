@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sarim</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+
+
+
+
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+
+
+</head>
+
+<body>
+  <header>
+    <a href="#" class="site-logo" aria-label="homepage">IntObs</a>
+    <nav class="main-nav">
+      <ul class="nav__list">
+        <li class="nav__list-item"><a href="index.html" class="nav__link">Home</a></li>
+        <li class="nav__list-item">
+          <a href="aboutus.html" class="nav__link">About</a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#" class="nav__link">Another page</a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#" class="nav__link">Pricing</a>
+        </li>
+        <li class="nav__list-item"><a href="#" class="nav__link">Blog</a></li>
+      </ul>
+    </nav>
+   
+    <nav class="account">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a class="nav__link nav__link--btn" href="#">Login</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="nav__link nav__link--btn nav__link--btn--highlight" href="#">Join</a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="nav_butt ">
+      <span class="fa-solid fa-bars" style="color: #ffffff;"></span>    </nav>
+  </header>
+
+  <main>
+    <section class="home-intro">
+      <h1>Intersection Observer is pretty useful</h1>
+    </section>
+
+    <div class="container ">
+      <section class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-easing="linear"
+        data-aos-delay="500">
+        <img src="./img/skiing.jpg " alt="Mountains" height="100px">
+        <div>
+          <h2>Info</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe neque sapiente incidunt
+            quis
+            amet
+            quo iusto. </p>
+        </div>
+      </section>
+      <section class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" data-aos-delay="600">
+        <img src="./img/skiing.jpg " alt="Mountains" height="100px">
+        <div>
+          <h2>Info</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe neque sapiente incidunt
+            quis
+            amet
+            quo iusto. </p>
+        </div>
+      </section>
+      <section class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-easing="linear"
+        data-aos-delay="600">
+        <img src="./img/skiing.jpg" alt="Mountains" height="100px">
+        <div>
+          <h2>Info</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe neque sapiente incidunt
+            quis
+            amet
+            quo iusto. </p>
+        </div>
+      </section>
+      <section class="card" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
+        <img src="./img/skiing.jpg " alt="Mountains" height="100px">
+        <div>
+          <h2>Info</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe neque sapiente incidunt
+            quis
+            amet
+            quo iusto. </p>
+        </div>
+      </section>
+    </div>
+
+
+
+  </main>
+
+
+
+  <script src="js/observers.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- <div class="home-about">
+        <h2>About us</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="columns">
+          <div class="col fade-in">
+            <h3>Lorem, ipsum.</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
+              maiores fuga eos provident voluptas perferendis.
+            </p>
+          </div>
+          <div class="col fade-in">
+            <h3>A, illo!</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus minima quo beatae eius blanditiis officiis.
+            </p>
+          </div>
+          <div class="col fade-in">
+            <h3>Repudiandae, error?</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+              quasi quis doloribus quia illum laudantium.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-more-stuff">
+        <div class="more-stuff-grid">
+          <img
+            src="https://unsplash.it/400"
+            alt=""
+            class="slide-in from-left"
+          />
+          <p class="slide-in from-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
+            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
+            omnis sapiente neque cumque consequuntur reiciendis deserunt.
+            Dolorem vero exercitationem consequuntur, eligendi cupiditate
+            debitis facilis quibusdam magni. Eveniet.
+          </p>
+        </div>
+        <div class="more-stuff-grid">
+          <p class="slide-in from-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
+            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
+            omnis sapiente neque cumque consequuntur reiciendis deserunt.
+            Dolorem vero exercitationem consequuntur, eligendi cupiditate
+            debitis facilis quibusdam magni. Eveniet.
+          </p>
+          <img
+            src="https://unsplash.it/401"
+            alt=""
+            class="slide-in from-right"
+          />
+        </div>
+        <div class="more-stuff-grid">
+          <img src="//unsplash.it/400" alt="" class="slide-in from-left" />
+          <p class="slide-in from-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
+            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
+            omnis sapiente neque cumque consequuntur reiciendis deserunt.
+            Dolorem vero exercitationem consequuntur, eligendi cupiditate
+            debitis facilis quibusdam magni. Eveniet.
+          </p>
+        </div>
+        <div class="more-stuff-grid">
+          <p class="slide-in from-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
+            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
+            omnis sapiente neque cumque consequuntur reiciendis deserunt.
+            Dolorem vero exercitationem consequuntur, eligendi cupiditate
+            debitis facilis quibusdam magni. Eveniet.
+          </p>
+          <img
+            src="https://unsplash.it/401"
+            alt=""
+            class="slide-in from-right"
+          />
+        </div>
+        <div class="more-stuff-grid">
+          <img src="//unsplash.it/400" alt="" class="slide-in from-left" />
+          <p class="slide-in from-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
+            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
+            omnis sapiente neque cumque consequuntur reiciendis deserunt.
+            Dolorem vero exercitationem consequuntur, eligendi cupiditate
+            debitis facilis quibusdam magni. Eveniet.
+          </p>
+        </div>
+        <div class="more-stuff-grid">
+          <p class="slide-in from-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
+            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
+            omnis sapiente neque cumque consequuntur reiciendis deserunt.
+            Dolorem vero exercitationem consequuntur, eligendi cupiditate
+            debitis facilis quibusdam magni. Eveniet.
+          </p>
+          <img
+            src="https://unsplash.it/401"
+            alt=""
+            class="slide-in from-right"
+          />
+        </div>
+      </div>
+    </main> -->
+</body>
+
+</html>
